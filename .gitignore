@@ -1,0 +1,24 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Dependencias, cachés y artefactos de pruebas
+node_modules/
+.npm-cache/
+test-output/
+npm-debug.log*
+
+# Datos de runtime: se mantienen locales; la captura importada está en fixtures/
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Documentos y capturas fuente con datos personales
+*.docx
+resultados-concursomat2026.fly.dev_resultados.png
+referencias/
+
+# Salida temporal generada por el OCR
+scripts/ocr-captura.ps1

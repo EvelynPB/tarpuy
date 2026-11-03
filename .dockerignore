@@ -1,0 +1,9 @@
+node_modules
+.npm-cache
+.env
+data
+referencias
+*.docx
+*.txt
+test-output
+.git

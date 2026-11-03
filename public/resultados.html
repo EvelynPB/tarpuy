@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Resultados del XI Concurso Nacional de Matemática Lima Este 2026"><title>Resultados del concurso · Tarpuy 2026</title><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/resultados.css"><script type="module" src="/resultados.js"></script></head>
+<body class="results-page"><main class="container wide">
+<header class="result-hero"><img class="brand" src="/assets/brand.png" alt="Tarpuy · Colegio Tarpuy Moderno"><h1>Resultados del concurso</h1></header>
+<div id="message" role="alert" hidden></div><div id="source-note" class="source-note" hidden></div>
+<section id="waiting" class="panel empty" hidden><div class="empty-icon">◷</div><h2>Los resultados aún no se han publicado</h2><p>El equipo organizador está preparando el orden de mérito.</p><button id="refresh" type="button" class="secondary">Actualizar</button></section>
+<section id="published" hidden>
+<div class="results-controls"><div class="mode-tabs" role="tablist"><button id="grade-mode" class="small" aria-selected="true">Ranking por grado</button><button id="overall-mode" class="secondary small" aria-selected="false">Ranking general</button></div>
+<div class="result-tools"><label>Buscar alumno<input id="search" type="search" placeholder="Escribe un nombre o apellido" maxlength="200"></label><label>Colegio<select id="school"><option value="">Todos</option></select></label><label>Nivel<select id="level"><option value="">Todos</option><option>Inicial</option><option>Primaria</option><option>Secundaria</option></select></label><label>Grado<select id="grade"><option value="">Todos</option></select></label><label>Tipo<select id="type"><option value="">Todos</option><option>Delegación</option><option>Alumno libre</option></select></label></div>
+<div class="row between"><span id="result-count" class="muted tiny" aria-live="polite"></span><button id="clear" class="secondary small" type="button">Limpiar filtros</button></div><div id="grade-chips" class="grade-chips"></div></div>
+<div id="results-table"></div></section>
+<footer class="result-footer"><a href="/">Inscripciones</a><a href="/admin">Acceso del organizador</a><a href="https://www.colegiotarpuy.edu.pe/" target="_blank" rel="noopener">Colegio Tarpuy</a></footer></main></body></html>
